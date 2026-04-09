@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Block JS",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "block-js@andrei"
+    }
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
